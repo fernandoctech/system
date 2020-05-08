@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 
+
 const sizes = {
     small: css`
     height:28px;
@@ -56,6 +57,7 @@ const Button = styled.button.attrs({
     padding:0 10px;
     text-transform:uppercase;
     font-weight:700;
+    text-align:center;
 
 
     ${props =>sizes[props.size || 'default']};

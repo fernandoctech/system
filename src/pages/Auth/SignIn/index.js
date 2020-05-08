@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, SignForm, Logo } from '../styles';
 import Button from '../../../styles/components/Button';
+
 const SignIn = () => (
     
     <Container>
@@ -14,7 +15,7 @@ const SignIn = () => (
             <span>Senha</span>
             <input type="password" name="password"/>
 
-            <Button size ="default" type="submit" color="nando">Entrar</Button>
+            <Button size ="small" type="submit" color="danger">Entrar</Button>
 
         </SignForm>
     </Container>
